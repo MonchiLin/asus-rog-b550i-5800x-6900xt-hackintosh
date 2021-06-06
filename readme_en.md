@@ -1,4 +1,4 @@
-This file is translated from `reamde.md` by translation software. It is only used to provide index for search engines. I do not guarantee that it expresses accurate meaning.
+This file is translated from `readme.md` by translation software. It is only used to provide index for search engines. I do not guarantee that it expresses accurate meaning.
 
 # Ryzen Hackintosh
 

@@ -39,6 +39,9 @@ CPU：AMD Ryzen 5800X
 
 ## 更新记录
 
+### 2021/06/07
+更新 opencore 到 0.7 release 版本
+
 ### 2021/06/06
 增加 RestrictEvents，可以在系统信息中正确的显示 CPU
 

@@ -25,6 +25,8 @@ CPU：AMD Ryzen 5800X
 
 我不建议你直接使用我的 EFI，而是自己通过 opencore 官方教程构建，如果你与我配置差不多，我建议你去看 `tips.md` 文件，里面列出了我遇到的一些问题。
 
+需要注意的是, 以下记录均具有时效性.
+
 ## 可用
 
 * WIFI 和 Bluetooth 可用
@@ -39,7 +41,17 @@ CPU：AMD Ryzen 5800X
 
 [] 无法使用网线
 
+## 安装
+除了 OpenCore 官方教程提到的 Bios 之外, 还需要关闭 **Above 4G decoding**, 并且在引导参数中添加 `npci=0x2000`
+
+## 安装之后
+安装之后可以启用 **Above 4G decoding**, 同时移除引导参数中的`npci=0x2000`
+
+
 ## 更新记录
+
+### 2021/06/23
+更新驱动到最新的 Release 版本
 
 ### 2021/06/07
 更新 opencore 到 0.7 release 版本 

@@ -27,3 +27,16 @@
 
 除此之外`DiskGenius` 的 UEFI 引导管理的功能还可以指定电脑重启后从那个启动项引导。
 
+## 双系统 windows 蓝牙失效
+
+黑苹果的蓝牙驱动我也是使用的 OpenIntelWireless 开发者开发的，因为我是使用双系统，在某次重启发现 windows 的蓝牙失效了，我一度以为是硬件问题，但是在网上查资料后发现居然有好多人也遇到了这个问题，我怀疑和黑苹果使用的驱动有关，最后的解决方案很魔幻，关机，然后按电源十多次（不要狂按，会把按钮搞坏）
+
+## 双系统黑苹果运行 HeliPort 提示 itlwm is not runing
+
+这个问题的解决方案在 itlwm 的文档里提到了这个文档，https://wireless.wiki.kernel.org/en/users/drivers/iwlwifi#about_dual-boot_with_windows_and_fast-boot_enabled
+
+解决办法是关闭 windows 的快速启动
+
+
+
+

@@ -33,13 +33,13 @@ CPU：AMD Ryzen 5800X
 
 ## 已知问题
 
-[] 有时会报 itlwm is not runing, 我把 itlwm 更新到了最新的 2.0, 下次重启在试试
+[x] 有时会报 itlwm is not runing, 我把 itlwm 更新到了最新的 2.0, 下次重启在试试(双系统, windows 10 快速启动导致, 参见 tips.md)
 
 [] 开机缓慢，在选择系统启动后黑屏很长时间才进入系统
 
 [] 没有开机声音
 
-[] 无法使用网线
+[x] 无法使用网线(安装驱动即可, 参见 issue)
 
 ## 安装
 除了 OpenCore 官方教程提到的 Bios 之外, 还需要关闭 **Above 4G decoding**, 并且在引导参数中添加 `npci=0x2000`
